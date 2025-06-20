@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+.env
+*.sqlite3
+
+# Node-RED
+.node-red/
+flows_*.json
+settings.js
+*.backup
+*.bak
+
+# Docker
+*.pid
+*.seed
+*.tar
+*.bak
+*.swp
+docker-compose.override.yml
+
+# Grafana & InfluxDB volumes (avoid storing user data and dashboards locally)
+volumes/
+grafana/
+influxdb/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Backup & temp files
+*.tmp
+*.temp
+*~
+*.old
+
+# OS-specific
+ehthumbs.db
+Icon?
+Desktop.ini
